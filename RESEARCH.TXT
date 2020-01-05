@@ -1,0 +1,28 @@
+KEY-MAP
+{
+	RSAPublicKey=OpenSSLRSAPublicKey
+	{
+		modulus=
+f2e10b179efeb62cc7e7e87fbc865cde1e430b32587d005a56c3a2d2180bc2f4a9109372f38192018ac2987deb763890dcced6a3577f57f4372576c02c6c22106bbd8bfe69b974295676be786be42899aa63d3ac1ac1db0f295e96d1773279c2ffd5314cbdc950753b124353759f009e2a3d50a1c282db6e73aa51f213427e59,
+		publicExponent=10001
+	},
+
+ 	RSAPrivateKey=OpenSSLRSAPrivateCrtKey
+	{
+		modulus=
+f2e10b179efeb62cc7e7e87fbc865cde1e430b32587d005a56c3a2d2180bc2f4a9109372f38192018ac2987deb763890dcced6a3577f57f4372576c02c6c22106bbd8bfe69b974295676be786be42899aa63d3ac1ac1db0f295e96d1773279c2ffd5314cbdc950753b124353759f009e2a3d50a1c282db6e73aa51f213427e59,
+		publicExponent=10001
+	}
+}
+
+	public key
+		MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDy4QsXnv62LMfn6H+8hlzeHkMLMlh9AFpWw6LS
+		GAvC9KkQk3LzgZIBisKYfet2OJDcztajV39X9DcldsAsbCIQa72L/mm5dClWdr54a+Qomapj06wa
+		wdsPKV6W0XcyecL/1TFMvclQdTsSQ1N1nwCeKj1QocKC225zqlHyE0J+WQIDAQAB
+
+
+https://gist.github.coam/nielsutrecht/855f3bef0cf559d8d23e94e2aecd4ede
+https://crypto.stackexchange.com/questions/9896/how-does-rsa-signature-verification-work
+https://www.comparitech.com/blog/information-security/rsa-encryption/
+
+https://www.programiz.com/kotlin-programming/examples/hcf-gcd

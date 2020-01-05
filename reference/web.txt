@@ -1,0 +1,7 @@
+https://www.codepolitan.com/apa-itu-encoding-obfuscation-hashing-dan-encryption-58bfb7eee3215
+
+https://www.samclarke.com/kotlin-hash-strings/
+
+https://stackoverflow.com/questions/1961146/memory-address-of-variables-in-java/1961150#1961150
+
+https://docs.oracle.com/javase/8/docs/api/java/lang/System.html#identityHashCode-java.lang.Object-
