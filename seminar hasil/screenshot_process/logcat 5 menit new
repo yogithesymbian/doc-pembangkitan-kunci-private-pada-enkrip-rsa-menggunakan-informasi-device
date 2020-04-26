@@ -1,0 +1,62 @@
+2020-04-20 00:00:10.264 D/PrimeNumberGenerate: [*]
+    ===========================================
+                    TIME_INIT
+    ===========================================
+    default time : 1587312010161
+    waktu sekarang : 2020-04-20 00:00:10
+    Hours : 12
+    Min : 00
+    Sec : 10
+    ===========================================
+                    TIME_INIT
+    ===========================================
+2020-04-20 00:00:10.728 D/PrimeNumberGenerate: [*]
+    ascii decimal "Politeknik Negeri Samarinda Tahun 2020 is 3400
+    range prime number is 2 until 3400
+    result size prme number is 478
+2020-04-20 00:00:13.076 D/ChoosePq: result size prime number is 478
+2020-04-20 00:00:13.180 D/ChoosePq: random data choosen : 10
+2020-04-20 00:00:13.410 D/ChoosePq: list gmt            : [GMT-1, GMT-2, GMT-3, GMT-4, GMT-5, GMT-6, GMT-7, GMT-8, GMT-9, GMT-10, GMT-11, GMT+1, GMT+2, GMT+3, GMT+4, GMT+5, GMT+6, GMT+7, GMT+8, GMT+9, GMT+10, GMT+11, GMT+12, GMT+13]
+    pilihanya adalah    : GMT-11
+2020-04-20 00:00:13.651 D/ChoosePq: 24 hour format = convert time to GMT-11 19:00:13
+2020-04-20 00:00:13.651 D/ChoosePq: 12 hour format = 07 : 00 : 13
+2020-04-20 00:00:13.652 D/ChoosePq: outer check : 07 : 00 : 13
+2020-04-20 00:00:13.652 D/ChoosePq: debug check
+2020-04-20 00:00:13.978 D/ChoosePq: [*]
+    ==============================================
+    TIME POSITION
+    ==============================================
+    when position 1 < 2 3 4 5 6 use [ GMT+8 //DEFAULT has change into GMT-11]
+    1 = 7  HOUR * 4
+    1 < 0  MIN
+    1 < 13  SEC
+    1 < 13  MIN + SEC
+    1 < 0  MIN * SEC
+    1 < 0  HR  * MIN
+    ================================================
+    INIT BEFORE SET DATA POSITION
+    FOR RESULT PRIME [ ARRAY LIST ] POSITION | TIME
+    ================================================
+2020-04-20 00:00:13.978 D/ChoosePq: timePosition P = 7 * 4
+2020-04-20 00:00:13.978 D/ChoosePq: result timePosition P = 28
+2020-04-20 00:00:13.978 D/ChoosePq: 6 timePosition Q
+2020-04-20 00:00:13.979 D/ChoosePq: number P : 109 | where thePrime[timePosition]
+2020-04-20 00:00:13.979 D/ChoosePq: number Q : 269 | where thePrime[timePosition]
+2020-04-20 00:00:15.071 D/CountPq: [*]
+    gcd ( p -1 , q - 1 )
+    G.C.D = 4 // the result should not big
+2020-04-20 00:00:15.071 D/CountPq: result number n : 29321
+2020-04-20 00:00:15.071 D/CountPq: result number fai[n] : 28944
+2020-04-20 00:00:18.376 D/SummonKey: [*]
+    result gcd ( e[i], faiN ) is much ,
+    size is gcd 1 = 9503
+    size is e 9503
+    value1 arrayListResultGcd
+    and
+    value2 arrayListEPublicKey
+    last value 28943
+2020-04-20 00:00:18.888 I/igitalsignatur: Background young concurrent copying GC freed 8695(477KB) AllocSpace objects, 0(0B) LOS objects, 4% free, 3114KB/3259KB, paused 52.280ms total 1.941s
+2020-04-20 00:00:19.536 D/SummonKey: decrypt | private key : 21031
+2020-04-20 00:00:19.761 D/MainActivity: [*]
+    PublicKey (e) : ( 823 , 29321 )
+    Privatekey (d): ( 21031 , 29321 )
