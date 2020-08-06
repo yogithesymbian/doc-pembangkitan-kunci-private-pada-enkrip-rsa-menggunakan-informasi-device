@@ -1,60 +1,50 @@
-2020-07-16 15:55:48.269 D/PrimeNumberGenerate: [*]
+id.scode.digitalsignature D/OverviewRevActivity: waktu pembangkitan : 3 ms
+id.scode.digitalsignature D/OverviewRevActivity: proses generate batas atas prima dan eliminasi : 1 ms
+id.scode.digitalsignature D/PrimeNumberGenerate: [*]
     ===========================================
                     TIME_INIT
     ===========================================
-    default time : 1594886148236
-    waktu sekarang : 2020-07-16 15:55:48
+    default time : 1587885422737
+    waktu sekarang : 2020-04-26 15:17:02
     Hours : 03
-    Min : 55
-    Sec : 48
+    Min : 17
+    Sec : 02
     ===========================================
                     TIME_INIT
     ===========================================
-2020-07-16 15:55:48.292 D/PrimeNumberGenerate: [*]
-    ascii decimal "Politeknik Negeri Samarinda Tahun 2020 is 3400
-    range prime number is 2 until 3400
-    result size prme number is 478
-2020-07-16 15:55:49.312 D/ChoosePq: result size prime number is 478
-2020-07-16 15:55:49.327 D/ChoosePq: random data choosen : 9
-2020-07-16 15:55:49.334 D/ChoosePq: list gmt            : [GMT-1, GMT-2, GMT-3, GMT-4, GMT-5, GMT-6, GMT-7, GMT-8, GMT-9, GMT-10, GMT-11, GMT+1, GMT+2, GMT+3, GMT+4, GMT+5, GMT+6, GMT+7, GMT+8, GMT+9, GMT+10, GMT+11, GMT+12, GMT+13]
-    pilihanya adalah    : GMT-10
-2020-07-16 15:55:49.345 D/ChoosePq: 24 hour format = convert time to GMT-10 09:55:49
-2020-07-16 15:55:49.345 D/ChoosePq: 12 hour format = 09 : 55 : 49
-2020-07-16 15:55:49.345 D/ChoosePq: outer check : 09 : 55 : 49
-2020-07-16 15:55:49.345 D/ChoosePq: debug check
-2020-07-16 15:55:49.351 D/ChoosePq: [*]
+id.scode.digitalsignature D/ChoosePqRev: deretan prima
+    
+    arrayListPrimeNumber = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229, 233, 239, 241, 251, 257, 263, 269, 271, 277, 281, 283, 293, 307, 311, 313, 317, 331, 337, 347, 349, 353, 359, 367, 373, 379, 383, 389, 397, 401, 409, 419, 421, 431, 433, 439, 443, 449, 457, 461, 463, 467, 479, 487, 491, 499, 503, 509]
+    
+    result size arrayListPrimeNumber.size = 97
+id.scode.digitalsignature D/ChoosePqRev: hasil sudoRandom 1 sampai arrayTime.size = 10
+id.scode.digitalsignature D/ChoosePqRev: list gmt 
+    
+    arrayTime : [GMT-1, GMT-2, GMT-3, GMT-4, GMT-5, GMT-6, GMT-7, GMT-8, GMT-9, GMT-10, GMT-11, GMT+1, GMT+2, GMT+3, GMT+4, GMT+5, GMT+6, GMT+7, GMT+8, GMT+9, GMT+10, GMT+11, GMT+12, GMT+13]
+    
+    pilihannya adalah arrayTime[sudoRandom]   : GMT-11
+id.scode.digitalsignature D/ChoosePqRev: convert time to GMT-11 10:17:03
+id.scode.digitalsignature D/ChoosePqRev: outer check : 10 : 17 : 03
+id.scode.digitalsignature D/ChoosePqRev: debug check
+id.scode.digitalsignature D/ChoosePqRev: [*]
     ==============================================
-    TIME POSITION
+    TIME POSITION // Zona Lain
     ==============================================
-    when position 1 < 2 3 4 5 6 use [ GMT+8 //DEFAULT has change into GMT-10]
-    1 = 9  HOUR * 4
-    1 < 55  MIN
-    1 < 49  SEC
-    1 < 104  MIN + SEC
-    1 < 495  MIN * SEC
-    1 < 2695  HR  * MIN
+    [ GMT+8 //DEFAULT has change into GMT-11]
+    4 // inisial
+    10  HOUR // H
+    17  MIN  // m
+    3  SEC  // s
+    untuk Pindex = inisial * h = 40 // Pi
     ================================================
-    INIT BEFORE SET DATA POSITION
-    FOR RESULT PRIME [ ARRAY LIST ] POSITION | TIME
+    when position untuk Qindex // Qi 
+    inisial (m*s) mod arrayListPrimeNumber.size <--- m < s [diisi = 10] // K1 
+    inisial (m+s) mod arrayListPrimeNumber.size <--- m > s [diisi = 80] // K2
     ================================================
-2020-07-16 15:55:49.352 D/ChoosePq: timePosition P = 9 * 4
-2020-07-16 15:55:49.352 D/ChoosePq: result timePosition P = 36
-2020-07-16 15:55:49.352 D/ChoosePq: 2 timePosition Q =  55
-2020-07-16 15:55:49.353 D/ChoosePq: number P : 157 | where thePrime[timePosition]
-2020-07-16 15:55:49.353 D/MainActivity: number Q : 263 | where thePrime[timePosition]
-2020-07-16 15:55:50.372 D/CountPq: [*]
+id.scode.digitalsignature D/ChoosePqRev: K0 timePosition Pi = 40
+id.scode.digitalsignature D/ChoosePqRev: K2 timePosition Qi =  80
+id.scode.digitalsignature D/ChoosePqRev: number pPi = 179 | where thePrime[timePositionPi]
+id.scode.digitalsignature D/ChoosePqRev: number qQi = 419 | where thePrime[timePositionQi]
+id.scode.digitalsignature D/CountPq: [*]
     gcd ( p -1 , q - 1 )
     G.C.D = 2 // the result should not big
-2020-07-16 15:55:50.384 D/CountPq: result number n : 41291
-2020-07-16 15:55:50.384 D/CountPq: result number fai[n] : 40872
-2020-07-16 15:55:51.487 D/SummonKey: [*]
-    result gcd ( e[i], faiN ) is much ,
-    size is gcd 1 = 12479
-    size is e 12479
-    value1 arrayListResultGcd
-    and
-    value2 arrayListEPublicKey
-    last value 40871
-2020-07-16 15:55:52.529 D/MainActivity: [*]
-    PublicKey (e) : ( 187 , 41291 )
-    Privatekey (d): ( 34315 , 41291 )
