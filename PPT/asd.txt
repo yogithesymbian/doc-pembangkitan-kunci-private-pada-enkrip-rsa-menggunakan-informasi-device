@@ -1,0 +1,2 @@
+https://stackoverflow.com/questions/11832022/why-are-large-prime-numbers-used-in-rsa-encryption
+https://www.geeksforgeeks.org/how-to-generate-large-prime-numbers-for-rsa-algorithm/
