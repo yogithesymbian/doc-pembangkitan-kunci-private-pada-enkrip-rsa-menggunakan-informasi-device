@@ -5,17 +5,17 @@
 final document location
 
 ```
-new ➜ Revisi Final Tugas Akhir 17615006 ➜ Seluruh Halaman Laporan Tugas Akhir.docx
+doc-pembangkitan-kunci-private-pada-enkrip-rsa-menggunakan-informasi-device ➜ new ➜ Revisi Final Tugas Akhir 17615006 ➜ Seluruh Halaman Laporan Tugas Akhir.docx
 ```
 
 pdf version
 
 ```
-new ➜ Revisi Final Tugas Akhir 17615006 ➜ 17615006_LAPORAN TA.pdf
+doc-pembangkitan-kunci-private-pada-enkrip-rsa-menggunakan-informasi-device ➜ new ➜ Revisi Final Tugas Akhir 17615006 ➜ 17615006_LAPORAN TA.pdf
 ```
 
 journal unpublish - coming soon
 
 ```
-new ➜ Final Tugas Akhir 17615006 ➜ 17615006_journal
+doc-pembangkitan-kunci-private-pada-enkrip-rsa-menggunakan-informasi-device ➜ new ➜ Final Tugas Akhir 17615006 ➜ 17615006_journal
 ```
